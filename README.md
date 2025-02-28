@@ -56,51 +56,8 @@ Este microserviço é responsável pelo gerenciamento de eventos, incluindo a cr
 
 - `POST /events/{eventId}/register` - Registra um participante em um evento
 
-### Exemplo de Requisição para Criar Evento
-
-```json
-{
-  "name": "Conferência de Tecnologia",
-  "date": "2025-06-15T10:00:00",
-  "location": "Fortaleza, CE"
-}
-```
-
-### Exemplo de Requisição para Registrar Participante
-
-```json
-{
-  "participantEmail": "usuario@email.com"
-}
-```
-
-## Docker (Opcional)
-
-Se desejar executar o microserviço com Docker:
-
-1. Construa a imagem Docker:
-   ```sh
-   docker build -t event-service .
-   ```
-
-2. Execute o container:
-   ```sh
-   docker run -p 8080:8080 event-service
-   ```
-
-## Documentação da API
-
-A documentação da API pode ser acessada via Swagger em:
-```
-http://localhost:8080/swagger-ui.html
-```
-
 ## Autor
 
-- [Seu Nome](https://github.com/seu-usuario)
-
-## Licença
-
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+- [Anibal Júnior](https://github.com/anibaljuniorpg)
 
 
