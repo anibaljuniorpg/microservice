@@ -4,7 +4,7 @@ import com.anibal.events_microservice.dtos.EventRequestDTO;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Entity(name = "event")
+@Entity
 @Table(name="event")
 @Getter
 @Setter
